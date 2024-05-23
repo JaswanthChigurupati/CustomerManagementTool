@@ -1,0 +1,32 @@
+﻿@page
+@model CustomerManagement.Web.Pages.Customers.IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<h1>Customer Management</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var customer in Model.Customers)
+        {
+            <tr>
+                <td>@customer.FirstName</td>
+                <td>@customer.LastName</td>
+                <td>@customer.Email</td>
+                <td>
+                    <a asp-page="Edit" asp-route-id="@customer.Id">Edit</a> |
+                    <a asp-page="Delete" asp-route-id="@customer.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

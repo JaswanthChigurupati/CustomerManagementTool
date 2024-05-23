@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\WorkSpace\\Interview Prep\\Pinewood Technologies Technical Test\\CustomerManagementTool\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0D6791-3B50-4655-9D91-3C1F2EFF8DAE}|CustomerManagement.WebApp\\CustomerManagement.WebApp.csproj|e:\\workspace\\interview prep\\pinewood technologies technical test\\customermanagementtool\\customermanagement.webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE0D6791-3B50-4655-9D91-3C1F2EFF8DAE}|CustomerManagement.WebApp\\CustomerManagement.WebApp.csproj|solutionrelative:customermanagement.webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\WorkSpace\\Interview Prep\\Pinewood Technologies Technical Test\\CustomerManagementTool\\CustomerManagement.WebApp\\Program.cs",
+              "RelativeDocumentMoniker": "CustomerManagement.WebApp\\Program.cs",
+              "ToolTip": "E:\\WorkSpace\\Interview Prep\\Pinewood Technologies Technical Test\\CustomerManagementTool\\CustomerManagement.WebApp\\Program.cs",
+              "RelativeToolTip": "CustomerManagement.WebApp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T02:29:13.592Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

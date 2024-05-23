@@ -1,0 +1,24 @@
+﻿@page
+@model CustomerManagement.Web.Pages.Customers.EditModel
+@{
+    ViewData["Title"] = "Edit Customer";
+}
+
+<h1>Edit Customer</h1>
+
+<form method="post">
+    <input type="hidden" asp-for="Customer.Id" />
+    <div class="form-group">
+        <label asp-for="Customer.FirstName"></label>
+        <input asp-for="Customer.FirstName" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Customer.LastName"></label>
+        <input asp-for="Customer.LastName" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Customer.Email"></label>
+        <input asp-for="Customer.Email" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>

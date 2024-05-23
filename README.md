@@ -77,13 +77,3 @@ dotnet run
 1. Navigate to the WebApp URL, typically https://localhost:44376.
 2. Use the interface to create, edit, and delete customers. 
 
-### ScreenShots
-
-#### Customer List
-
-#### Create Customer
-
-#### Edit Customer
-
-#### Delete Customer
-

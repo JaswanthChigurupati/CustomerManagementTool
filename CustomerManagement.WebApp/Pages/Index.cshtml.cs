@@ -1,6 +1,8 @@
+using CustomerManagement.WebApp.Models;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace CustomerManagement.Web.Pages.Customers
+namespace CustomerManagement.WebApp.Pages
 {
     public class IndexModel : PageModel
     {

@@ -1,7 +1,8 @@
+using CustomerManagement.WebApp.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace CustomerManagement.Web.Pages.Customers
+namespace CustomerManagement.WebApp.Pages.Customers
 {
     public class DeleteModel : PageModel
     {
@@ -17,7 +18,7 @@ namespace CustomerManagement.Web.Pages.Customers
 
         public async Task<IActionResult> OnGetAsync(int id)
         {
-            Customer = await _httpClient.GetFromJsonAsync<Customer>($"/customer/{id}");
+            Customer = await _httpClient.GetFromJsonAsync<Customer>($"api/customer/{id}");
             if (Customer == null)
             {
                 return NotFound();
@@ -27,8 +28,8 @@ namespace CustomerManagement.Web.Pages.Customers
 
         public async Task<IActionResult> OnPostAsync()
         {
-            await _httpClient.DeleteAsync($"/customer/{Customer.Id}");
-            return RedirectToPage("Index");
+            await _httpClient.DeleteAsync($"api/customer/{Customer.Id}");
+            return RedirectToPage("../Index");
         }
     }
 }

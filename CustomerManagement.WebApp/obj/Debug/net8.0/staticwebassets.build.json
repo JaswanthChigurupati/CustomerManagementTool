@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2zZAUUwVczgGGYu1Mgwk72LF2vhhKHj10SBlyonoU1Y=",
+  "Hash": "Zu2uY+QTfu2L4/SOSomCG5yDFIZApWdAnpTZN9IwJ30=",
   "Source": "CustomerManagement.WebApp",
   "BasePath": "_content/CustomerManagement.WebApp",
   "Mode": "Default",
@@ -16,6 +16,44 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "E:\\WorkSpace\\Interview Prep\\Pinewood Technologies Technical Test\\CustomerManagementTool\\CustomerManagement.WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CustomerManagement.WebApp.styles.css",
+      "SourceId": "CustomerManagement.WebApp",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\WorkSpace\\Interview Prep\\Pinewood Technologies Technical Test\\CustomerManagementTool\\CustomerManagement.WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/CustomerManagement.WebApp",
+      "RelativePath": "CustomerManagement.WebApp.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "E:\\WorkSpace\\Interview Prep\\Pinewood Technologies Technical Test\\CustomerManagementTool\\CustomerManagement.WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CustomerManagement.WebApp.styles.css"
+    },
+    {
+      "Identity": "E:\\WorkSpace\\Interview Prep\\Pinewood Technologies Technical Test\\CustomerManagementTool\\CustomerManagement.WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CustomerManagement.WebApp.bundle.scp.css",
+      "SourceId": "CustomerManagement.WebApp",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\WorkSpace\\Interview Prep\\Pinewood Technologies Technical Test\\CustomerManagementTool\\CustomerManagement.WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/CustomerManagement.WebApp",
+      "RelativePath": "CustomerManagement.WebApp.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "E:\\WorkSpace\\Interview Prep\\Pinewood Technologies Technical Test\\CustomerManagementTool\\CustomerManagement.WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CustomerManagement.WebApp.bundle.scp.css"
+    },
     {
       "Identity": "E:\\WorkSpace\\Interview Prep\\Pinewood Technologies Technical Test\\CustomerManagementTool\\CustomerManagement.WebApp\\wwwroot\\css\\site.css",
       "SourceId": "CustomerManagement.WebApp",

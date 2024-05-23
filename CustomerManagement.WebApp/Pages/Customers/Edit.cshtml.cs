@@ -1,7 +1,8 @@
+using CustomerManagement.WebApp.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace CustomerManagement.Web.Pages.Customers
+namespace CustomerManagement.WebApp.Pages.Customers
 {
     public class EditModel : PageModel
     {
@@ -17,7 +18,7 @@ namespace CustomerManagement.Web.Pages.Customers
 
         public async Task<IActionResult> OnGetAsync(int id)
         {
-            Customer = await _httpClient.GetFromJsonAsync<Customer>($"/customer/{id}");
+            Customer = await _httpClient.GetFromJsonAsync<Customer>($"api/customer/{id}");
             if (Customer == null)
             {
                 return NotFound();
@@ -32,8 +33,8 @@ namespace CustomerManagement.Web.Pages.Customers
                 return Page();
             }
 
-            await _httpClient.PutAsJsonAsync($"/customer/{Customer.Id}", Customer);
-            return RedirectToPage("Index");
+            await _httpClient.PutAsJsonAsync($"api/customer/{Customer.Id}", Customer);
+            return RedirectToPage("../Index");
         }
     }
 }

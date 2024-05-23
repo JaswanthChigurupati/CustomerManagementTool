@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "E:\\WorkSpace\\Interview Prep\\Pinewood Technologies Technical Test\\CustomerManagementTool\\CustomerManagement.WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CustomerManagement.WebApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\CustomerManagement.WebApp.bundle.scp.css"
+    },
+    {
       "Id": "E:\\WorkSpace\\Interview Prep\\Pinewood Technologies Technical Test\\CustomerManagementTool\\CustomerManagement.WebApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

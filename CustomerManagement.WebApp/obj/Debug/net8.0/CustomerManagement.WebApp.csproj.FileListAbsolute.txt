@@ -6,11 +6,6 @@ E:\WorkSpace\Interview Prep\Pinewood Technologies Technical Test\CustomerManagem
 E:\WorkSpace\Interview Prep\Pinewood Technologies Technical Test\CustomerManagementTool\CustomerManagement.WebApp\bin\Debug\net8.0\CustomerManagement.WebApp.runtimeconfig.json
 E:\WorkSpace\Interview Prep\Pinewood Technologies Technical Test\CustomerManagementTool\CustomerManagement.WebApp\bin\Debug\net8.0\CustomerManagement.WebApp.dll
 E:\WorkSpace\Interview Prep\Pinewood Technologies Technical Test\CustomerManagementTool\CustomerManagement.WebApp\bin\Debug\net8.0\CustomerManagement.WebApp.pdb
-E:\WorkSpace\Interview Prep\Pinewood Technologies Technical Test\CustomerManagementTool\CustomerManagement.WebApp\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
-E:\WorkSpace\Interview Prep\Pinewood Technologies Technical Test\CustomerManagementTool\CustomerManagement.WebApp\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
-E:\WorkSpace\Interview Prep\Pinewood Technologies Technical Test\CustomerManagementTool\CustomerManagement.WebApp\bin\Debug\net8.0\Newtonsoft.Json.dll
-E:\WorkSpace\Interview Prep\Pinewood Technologies Technical Test\CustomerManagementTool\CustomerManagement.WebApp\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
-E:\WorkSpace\Interview Prep\Pinewood Technologies Technical Test\CustomerManagementTool\CustomerManagement.WebApp\obj\Debug\net8.0\CustomerManagement.WebApp.csproj.AssemblyReference.cache
 E:\WorkSpace\Interview Prep\Pinewood Technologies Technical Test\CustomerManagementTool\CustomerManagement.WebApp\obj\Debug\net8.0\CustomerManagement.WebApp.GeneratedMSBuildEditorConfig.editorconfig
 E:\WorkSpace\Interview Prep\Pinewood Technologies Technical Test\CustomerManagementTool\CustomerManagement.WebApp\obj\Debug\net8.0\CustomerManagement.WebApp.AssemblyInfoInputs.cache
 E:\WorkSpace\Interview Prep\Pinewood Technologies Technical Test\CustomerManagementTool\CustomerManagement.WebApp\obj\Debug\net8.0\CustomerManagement.WebApp.AssemblyInfo.cs
@@ -26,8 +21,9 @@ E:\WorkSpace\Interview Prep\Pinewood Technologies Technical Test\CustomerManagem
 E:\WorkSpace\Interview Prep\Pinewood Technologies Technical Test\CustomerManagementTool\CustomerManagement.WebApp\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CustomerManagement.WebApp.props
 E:\WorkSpace\Interview Prep\Pinewood Technologies Technical Test\CustomerManagementTool\CustomerManagement.WebApp\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CustomerManagement.WebApp.props
 E:\WorkSpace\Interview Prep\Pinewood Technologies Technical Test\CustomerManagementTool\CustomerManagement.WebApp\obj\Debug\net8.0\staticwebassets.pack.json
+E:\WorkSpace\Interview Prep\Pinewood Technologies Technical Test\CustomerManagementTool\CustomerManagement.WebApp\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 E:\WorkSpace\Interview Prep\Pinewood Technologies Technical Test\CustomerManagementTool\CustomerManagement.WebApp\obj\Debug\net8.0\scopedcss\bundle\CustomerManagement.WebApp.styles.css
-E:\WorkSpace\Interview Prep\Pinewood Technologies Technical Test\CustomerManagementTool\CustomerManagement.WebApp\obj\Debug\net8.0\Customer.F93E02BD.Up2Date
+E:\WorkSpace\Interview Prep\Pinewood Technologies Technical Test\CustomerManagementTool\CustomerManagement.WebApp\obj\Debug\net8.0\scopedcss\projectbundle\CustomerManagement.WebApp.bundle.scp.css
 E:\WorkSpace\Interview Prep\Pinewood Technologies Technical Test\CustomerManagementTool\CustomerManagement.WebApp\obj\Debug\net8.0\CustomerManagement.WebApp.dll
 E:\WorkSpace\Interview Prep\Pinewood Technologies Technical Test\CustomerManagementTool\CustomerManagement.WebApp\obj\Debug\net8.0\refint\CustomerManagement.WebApp.dll
 E:\WorkSpace\Interview Prep\Pinewood Technologies Technical Test\CustomerManagementTool\CustomerManagement.WebApp\obj\Debug\net8.0\CustomerManagement.WebApp.pdb

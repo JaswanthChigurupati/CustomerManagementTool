@@ -1,7 +1,8 @@
+using CustomerManagement.WebApp.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace CustomerManagement.Web.Pages.Customers
+namespace CustomerManagement.WebApp.Pages.Customers
 {
     public class CreateModel : PageModel
     {
@@ -22,8 +23,8 @@ namespace CustomerManagement.Web.Pages.Customers
                 return Page();
             }
 
-            await _httpClient.PostAsJsonAsync("/customer", Customer);
-            return RedirectToPage("Index");
+            await _httpClient.PostAsJsonAsync("api/customer", Customer);
+            return RedirectToPage("../Index");
         }
     }
 }

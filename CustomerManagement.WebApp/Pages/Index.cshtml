@@ -1,7 +1,7 @@
 ﻿@page
-@model CustomerManagement.Web.Pages.Customers.IndexModel
+@model IndexModel
 @{
-    ViewData["Title"] = "Home";
+    ViewData["Title"] = "Home page";
 }
 
 <h1>Customer Management</h1>
@@ -23,8 +23,8 @@
                 <td>@customer.LastName</td>
                 <td>@customer.Email</td>
                 <td>
-                    <a asp-page="Edit" asp-route-id="@customer.Id">Edit</a> |
-                    <a asp-page="Delete" asp-route-id="@customer.Id">Delete</a>
+                    <a asp-page="/Customers/Edit" asp-route-id="@customer.Id">Edit</a> |
+                    <a asp-page="/Customers/Delete" asp-route-id="@customer.Id">Delete</a>
                 </td>
             </tr>
         }

@@ -1,9 +1,5 @@
-using CustomerManagement.Api.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using System.Net.Http;
-using System.Net.Http.Json;
-using System.Threading.Tasks;
 
 namespace CustomerManagement.Web.Pages.Customers
 {

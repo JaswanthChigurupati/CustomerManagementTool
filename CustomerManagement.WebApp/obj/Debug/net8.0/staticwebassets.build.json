@@ -1,23 +1,11 @@
 {
   "Version": 1,
-  "Hash": "3AFW5EeaNlLj00RsRIYZMJWmScvg4fVkBTbbRTertHo=",
+  "Hash": "2zZAUUwVczgGGYu1Mgwk72LF2vhhKHj10SBlyonoU1Y=",
   "Source": "CustomerManagement.WebApp",
   "BasePath": "_content/CustomerManagement.WebApp",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [
-    {
-      "Identity": "E:\\WorkSpace\\Interview Prep\\Pinewood Technologies Technical Test\\CustomerManagementTool\\CustomerManagement.Api\\CustomerManagement.Api.csproj",
-      "Version": 2,
-      "Source": "CustomerManagement.Api",
-      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
-      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
-    }
-  ],
+  "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
       "Name": "CustomerManagement.WebApp\\wwwroot",

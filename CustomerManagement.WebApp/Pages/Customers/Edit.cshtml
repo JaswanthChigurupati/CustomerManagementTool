@@ -1,4 +1,4 @@
-﻿@page
+﻿@page "{id:int}"
 @model CustomerManagement.Web.Pages.Customers.EditModel
 @{
     ViewData["Title"] = "Edit Customer";
@@ -11,14 +11,21 @@
     <div class="form-group">
         <label asp-for="Customer.FirstName"></label>
         <input asp-for="Customer.FirstName" class="form-control" />
+        <span asp-validation-for="Customer.FirstName" class="text-danger"></span>
     </div>
     <div class="form-group">
         <label asp-for="Customer.LastName"></label>
         <input asp-for="Customer.LastName" class="form-control" />
+        <span asp-validation-for="Customer.LastName" class="text-danger"></span>
     </div>
     <div class="form-group">
         <label asp-for="Customer.Email"></label>
         <input asp-for="Customer.Email" class="form-control" />
+        <span asp-validation-for="Customer.Email" class="text-danger"></span>
     </div>
     <button type="submit" class="btn btn-primary">Save</button>
 </form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,26 +1,32 @@
-using CustomerManagement.Api.Models;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using System.Collections.Generic;
-using System.Net.Http;
-using System.Net.Http.Json;
-using System.Threading.Tasks;
 
 namespace CustomerManagement.Web.Pages.Customers
 {
     public class IndexModel : PageModel
     {
         private readonly HttpClient _httpClient;
+        private readonly ILogger<IndexModel> _logger;
 
-        public IndexModel(IHttpClientFactory clientFactory)
+        public IndexModel(IHttpClientFactory clientFactory, ILogger<IndexModel> logger)
         {
             _httpClient = clientFactory.CreateClient("ApiClient");
+            _logger = logger;
         }
 
         public IList<Customer> Customers { get; set; }
 
         public async Task OnGetAsync()
         {
-            Customers = await _httpClient.GetFromJsonAsync<IList<Customer>>("/customer");
+            _logger.LogInformation("Fetching customers from API.");
+            try
+            {
+                Customers = await _httpClient.GetFromJsonAsync<IList<Customer>>("api/customer");
+            }
+            catch (HttpRequestException ex)
+            {
+                _logger.LogError($"Request failed: {ex.Message}");
+                throw;
+            }
         }
     }
 }
